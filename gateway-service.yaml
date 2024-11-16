@@ -27,7 +27,7 @@ spring:
           filters:
             - StripPrefix=1
         - id: messaging
-          uri: http://localhost:8094
+          uri: http://localhost:9040
           predicates:
             - Path=/messaging/**
           filters:
